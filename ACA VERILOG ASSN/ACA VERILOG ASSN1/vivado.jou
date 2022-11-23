@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Nov 23 19:55:46 2022
+# Process ID: 54296
+# Current directory: C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent47272 C:\Users\rahul\OneDrive\Desktop\ACA VERILOG ASSN\ACA VERILOG ASSN1\ACA VERILOG ASSN1.xpr
+# Log file: C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/vivado.log
+# Journal file: C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.srcs/sources_1/new/bit4_fa.v} w ]
+add_files {{C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.srcs/sources_1/new/bit4_fa.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.srcs/sources_1/new/tb_bit4_fa.v} w ]
+add_files {{C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.srcs/sources_1/new/tb_bit4_fa.v}}
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{C:/Users/rahul/OneDrive/Desktop/ACA VERILOG ASSN/ACA VERILOG ASSN1/ACA VERILOG ASSN1.srcs/sources_1/new/tb_bit1FA.v}}]
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source tb_bit4_fa.tcl
+close_sim
